@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Section</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+
+</head>
+<body>
+
+    <nav>
+
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <header>
+        <h1>Our Cafe Gallery</h1>
+        <p>Explore our cozy environment and delicious treats.</p>
+    </header>
+
+    <div class="container">
+     <div class="offices">
+            <h2>Operating Hours</h2>
+        <li>Sunday: CLOSED</li>
+        <li>Monday: 10:00AM to 10:00PM</li>
+        <li>Tuesday: 10:00AM to 10:00PM</li>
+        <li>Wednesday: 10:00AM to 10:00PM</li>
+        <li>Thursday: 10:00AM to 10:00PM</li>
+        <li>Friday: 2:00PM to 11:00PM</li>
+        <li>Saturday: 10:00AM to 10:00PM</li>
+
+
+            <div class="office">
+                <h3>JOHOR BAHRU (HQ)</h3>
+                <p>No. 12, Jalan Kencana Emas 2/2,<br>
+                   Kawasan Perindustrian Tebrau 3,<br>
+                   81100 Johor Bahru, Johor.</p>
+            </div>
+
+            <div class="office">
+                <h3>KUALA LUMPUR</h3>
+                <p>No. 9, Jalan TPP 5,<br>
+                   Taman Perindustrian Putra,<br>
+                   47130 Puchong, Selangor, Malaysia.</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us A Message</h2>
+            <p>Our support team is ready to assist. If you have any enquiries or feedback, just leave us your message and details.</p>
+
+            <form>
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile*</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="60" required>
+
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Find Out More</button>
+            </form>
+        </div>
+
+    <audio id="background-audio" autoplay loop muted>
+        <source src="song/YungKai-blue.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="audio-controls">
+        <button onclick="toggleAudio()">🔊/🔇</button>
+    </div>
+
+    </div>
+
+
+<footer>
+    <div class="footer-container">
+        <!-- Informasi Café -->
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>Welcome to Sweety Brew Café, your cozy spot for artisanal coffee and freshly baked pastries. We strive to bring you joy, one sip at a time.</p>
+        </div>
+
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:sweetybrewcafec@gmail.com">sweetybrewcafec@gmail.com</a></p>
+            <p>Phone: +03-6834 8141</p>
+            <p>Address: No. 12, Jalan Kencana Emas 2/2, Kawasan Perindustrian Tebrau 3, 81100 Johor Bahru, Johor.</p>
+        </div>
+
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+
+            <a href="https://www.facebook.com/YourPage" target="_blank"><img src="photo/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sweetybrewcafe/profilecard/?igsh=MXJ5MWtyZXFyanFr" target="_blank"><img src="photo/instagram.jpg" alt="Instagram"></a>
+            <a href="https://twitter.com/YourProfile" target="_blank"><img src="photo/x.png" alt="X"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Sweety Brew Café. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="JAVA/contact.js"></script>
+</body>
+</html>
+

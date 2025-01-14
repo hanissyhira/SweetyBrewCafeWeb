@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Section</title>
+    <link rel="stylesheet" href="CSS/menu.css">
+</head>
+
+
+<body>
+
+
+ <!-- Navigation -->
+<nav>
+
+<!-- Hamburger Icon for Mobile -->
+<div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+    <div class="nav-container">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Menu</h1>
+            <p>Enjoy your happy moment with our coffee and pastries.</p>
+        </div>
+    </section>
+
+    <!-- Main Menu Section -->
+    <section class="menu-section">
+        <div class="menu-categories">
+            <h2>Menu</h2>
+    <ul>
+        <li onclick="filterMenu('hot')">Hot Coffee</li>
+        <li onclick="filterMenu('iced')">Iced Coffee</li>
+        <li onclick="filterMenu('frappe')">Frappe Drink</li>
+        <li onclick="filterMenu('dessert')">Desserts</li>
+    </ul>
+
+        </div>
+
+        <!-- Menu Items -->
+        <div class="menu-items">
+        <div class="menu-items">
+            <div class="menu-card hot">
+                <img src="photo/caremal latte.jpg" alt="caremal latte"onclick="openModal(this)">
+                <h3>Caramel Latte</h3>
+            </div>
+
+            <div class="menu-card hot">
+                <img src="photo/chocolate milk latte.jpg" alt="Chocolate Milk Latte"onclick="openModal(this)">
+                <h3>Chocolate Milk Latte</h3>
+            </div>
+            <div class="menu-card hot">
+                <img src="photo/espresso latte.jpg" alt="espresso latte"onclick="openModal(this)">
+                <h3>Espresso Latte</h3>
+            </div>
+            <div class="menu-card hot">
+                <img src="photo/cinammon latte.jpg" alt="Cinammon Latte"onclick="openModal(this)">
+                <h3>Cinammon Latte</h3>
+            </div>
+<div class="menu-card hot">
+                <img src="photo/americano.jpg" alt="americano"onclick="openModal(this)">
+                <h3>Americano</h3>
+            </div>
+            <div class="menu-card hot">
+                <img src="photo/mocha.jpg" alt="mocha"onclick="openModal(this)">
+                <h3>Mocha</h3>
+            </div>
+            <div class="menu-card hot">
+                <img src="photo/vanilla matcha latte.jpg" alt="vanilla matcha latte"onclick="openModal(this)">
+                <h3>vanilla matcha latte</h3>
+            </div>            
+
+<div class="menu-card hot">
+                <img src="photo/hot cappucino.jpg" alt="hot cappucino"onclick="openModal(this)">
+                <h3>hot cappucino</h3>
+            </div>
+
+
+
+
+            <div class="menu-card iced">
+                <img src="photo/brown sugar espresso.jpg" alt="brown sugar espresso"onclick="openModal(this)">
+                <h3>brown sugar espresso</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/caramel hazelnut.jpg" alt="caramel hazelnut"onclick="openModal(this)">
+                <h3>caramel hazelnut</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/dalgona coffee.jpg" alt="dalgona coffee"onclick="openModal(this)">
+                <h3>dalgona coffee</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/vanilla latte.jpg" alt="Vanilla Latte"onclick="openModal(this)">
+                <h3>Vanilla Latte</h3>
+            </div>
+<div class="menu-card iced">
+                <img src="photo/iced matcha latte.jpg" alt="iced matcha latte"onclick="openModal(this)">
+                <h3>iced matcha latte</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/spanish latte.jpg" alt="spanish latte"onclick="openModal(this)">
+                <h3>spanish latte</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/iced americano.jpg" alt="iced americano"onclick="openModal(this)">
+                <h3>iced americano</h3>
+            </div>
+            <div class="menu-card iced">
+                <img src="photo/blueberry iced latte.jpg" alt="blueberry iced latte"onclick="openModal(this)">
+                <h3>blueberry iced latte</h3>
+            </div>
+
+
+
+
+            <div class="menu-card frappe">
+                <img src="photo/matcha frappe.jpg" alt="matcha frappe"onclick="openModal(this)">
+                <h3>matcha frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/salted caramel frappe.jpg" alt="salted caramel frappe"onclick="openModal(this)">
+                <h3>salted caramel frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/oreo chocolate frappe.jpg" alt="oreo chocolate frappe"onclick="openModal(this)">
+                <h3>oreo chocolate frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/mango frappe.jpg" alt="mango frappe"onclick="openModal(this)">
+                <h3>mango frappe</h3>
+            </div>
+
+<div class="menu-card frappe">
+                <img src="photo/vanilla frappe.jpg" alt="vanilla frappee"onclick="openModal(this)"onclick="openModal(this)">
+                <h3>vanilla frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/strawberry vanilla frappe.jpg" alt="strawberry vanilla frappe"onclick="openModal(this)">
+                <h3>strawberry vanilla frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/biscoff frappe.jpg" alt="biscoff frappe"onclick="openModal(this)">
+                <h3>biscoff frappe</h3>
+            </div>
+            <div class="menu-card frappe">
+                <img src="photo/cherry vanilla frappe.jpg" alt="cherry vanilla frappe"onclick="openModal(this)">
+                <h3>cherry vanilla frappe</h3>
+            </div>
+
+
+<div class="menu-card dessert">
+                <img src="photo/Biscoff Cheesecake.jpg" alt="Biscoff Cheesecake"onclick="openModal(this)">
+                <h3>Biscoff Cheesecake</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Chocolate Cinnamon Rolls.jpg" alt="Chocolate Cinnamon Rolls"onclick="openModal(this)">
+                <h3>Chocolate Cinnamon Rolls</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Oreo Cupcake.jpg" alt="Oreo Cupcake"onclick="openModal(this)">
+                <h3>Oreo Cupcake</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Croissant.jpg" alt="Croissant"onclick="openModal(this)">
+                <h3>Croissant</h3>
+            </div>
+
+
+<div class="menu-card dessert">
+                <img src="photo/Chocolate Cake.jpg" alt="Chocolate Cake"onclick="openModal(this)">
+                <h3>Chocolate Cake</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Cherry Cupcake.jpg" alt="Cherry Cupcake"onclick="openModal(this)">
+                <h3>Cherry Cupcake</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Macaroon.jpg" alt="Macaroon"onclick="openModal(this)">
+                <h3>Macaroon</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/Carrot Cake.jpg" alt="Carrot Cake"onclick="openModal(this)">
+                <h3>Carrot Cake</h3>
+            </div>
+            <div class="menu-card dessert">
+                <img src="photo/kunafa cake.jpg" alt="Kunafa Cake"onclick="openModal(this)">
+                <h3>Kunafa Cake</h3>
+            </div>
+
+
+
+            <div class="modal" id="imageModal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" alt="Modal Content">
+            </div>
+        </div>
+    </main>
+
+    </section>
+
+
+    </div>
+
+
+
+<footer>
+    <div class="footer-container">
+        <!-- Informasi Café -->
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>Welcome to Sweety Brew Café, your cozy spot for artisanal coffee and freshly baked pastries. We strive to bring you joy, one sip at a time.</p>
+        </div>
+
+        <!-- Navigasi Singkat -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Kontak -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:sweetybrewcafec@gmail.com">sweetybrewcafec@gmail.com</a></p>
+            <p>Phone: +03-6834 8141</p>
+            <p>Address: No. 12, Jalan Kencana Emas 2/2, Kawasan Perindustrian Tebrau 3, 81100 Johor Bahru, Johor.</p>
+        </div>
+
+        <!-- Ikon Media Sosial -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <!-- Replace the '#' with the actual URLs to your social media profiles -->
+            <a href="https://www.facebook.com/YourPage" target="_blank"><img src="photo/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sweetybrewcafe/profilecard/?igsh=MXJ5MWtyZXFyanFr" target="_blank"><img src="photo/instagram.jpg" alt="Instagram"></a>
+            <a href="https://twitter.com/YourProfile" target="_blank"><img src="photo/x.png" alt="X"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Sweety Brew Café. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="JAVA/menu.js"></script>
+</body>
+</html>

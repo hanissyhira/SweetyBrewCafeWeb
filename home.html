@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweety Brew Café</title>
+    <link rel="stylesheet" href="CSS/home.css"> 
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+<!-- Hamburger Icon for Mobile -->
+<div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="logo-container">
+            <div class="logo"></div>
+            <div class="animated-text">Welcome to a place that creates sweet memories with every visit.</div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2>Signature Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="photo/coffee2.jpg" alt="Coffee">
+                <h3>Coffee</h3>
+                <p>Rich and smooth, starting at RM 8.90.</p>
+            </div>
+            <div class="menu-item">
+                <img src="photo/cake2.jpg" alt="Cake">
+                <h3>Cakes</h3>
+                <p>Delicious slices, starting at RM 10.50.</p>
+            </div>
+            <div class="menu-item">
+                <img src="photo/frappe1.jpg" alt="Frappe">
+                <h3>Frappe</h3>
+                <p>Rich ingredients, starting at RM 8.90.</p>
+            </div>
+        </div>
+        <a href="menu.html" class="btn">More menu</a>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="choose-us-container">
+            <div class="choose-item">
+                <img src="photo/cook.jpg" alt="Fresh Ingredients">
+                <p>Fresh Ingredients</p>
+            </div>
+            <div class="choose-item">
+                <img src="photo/recepi.jpg" alt="Best Recipe">
+                <p>Best Recipe</p>
+            </div>
+            <div class="choose-item">
+                <img src="photo/cus.jpg" alt="Happy Client">
+                <p>Happy Client</p>
+            </div>
+            <div class="choose-item">
+                <img src="photo/halal.jpg" alt="Muslim Friendly Menu">
+                <p>Muslim Friendly Menu</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Offer Section -->
+<section class="offer">
+    <h2>☕️ Buy 1, Get 1 FREE! ☕️</h2>
+    <p>Enjoy any coffee or tea of your choice, and we’ll treat you to a second one absolutely FREE!</p>
+
+    <p>🍰 <strong>Sweet Bonus:</strong> Get a 20% discount on any dessert when you avail of this offer.</p>
+
+    <p>📅 <strong>Limited Time Only:</strong> Offer valid from 8:00 PM to 9:00 PM.</p>
+
+    <p>📍 Visit us at Sweety Brew Café, No. 12, Jalan Kencana Emas 2/2, Kawasan Perindustrian Tebrau 3, 81100 Johor Bahru, Johor and savor the warmth of great coffee and delightful treats!</p>
+
+    <p>📲 Show this message at the counter to claim your offer. Don’t miss out!</p>
+</section>
+
+    <audio id="background-audio" autoplay loop muted>
+        <source src="song/YungKai-blue.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="audio-controls">
+        <button onclick="toggleAudio()">🔊/🔇</button>
+    </div>
+
+<div class="back-button">
+    <a href="index.html" class="btn">Back</a>
+</div>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Informasi Café -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Welcome to Sweety Brew Café, your cozy spot for artisanal coffee and freshly baked pastries. We strive to bring you joy, one sip at a time.</p>
+            </div>
+
+            <!-- Navigasi Singkat -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Kontak -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:sweetybrewcafec@gmail.com">sweetybrewcafec@gmail.com</a></p>
+                <p>Phone: +03-6834 8141</p>
+                <p>Address: No. 12, Jalan Kencana Emas 2/2, Kawasan Perindustrian Tebrau 3, 81100 Johor Bahru, Johor.</p>
+            </div>
+
+            <!-- Ikon Media Sosial -->
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/YourPage" target="_blank"><img src="photo/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sweetybrewcafe/profilecard/?igsh=MXJ5MWtyZXFyanFr" target="_blank"><img src="photo/instagram.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/YourProfile" target="_blank"><img src="photo/x.png" alt="Twitter"></a>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sweety Brew Café. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="JAVA/home.js"></script>
+</body>
+</html>

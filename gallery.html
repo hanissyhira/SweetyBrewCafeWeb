@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Section</title>
+    <link rel="stylesheet" href="CSS/gallery.css">
+</head>
+<body>
+
+
+    <!-- Navigation -->
+    <nav>
+
+<!-- Hamburger Icon for Mobile -->
+<div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Our Cafe Gallery</h1>
+        <p>Explore our cozy environment and delicious treats.</p>
+    </header>
+
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <marquee><h2>Our Gallery</h2></marquee>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="photo/g1.jpg" alt="Coffee Art">
+                <div class="caption">Coffee Art</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g2.jpg" alt="Barista at Work">
+                <div class="caption">Barista at Work</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g3.jpg" alt="Our Pastries">
+                <div class="caption">Our Pastries</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g4.jpg" alt="Coffee Art">
+                <div class="caption">Coffee Art</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="photo/g5.jpg" alt="Barista at Work">
+                <div class="caption">Barista at Work</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g6.jpg" alt="Croissant With various Flavour">
+                <div class="caption">Croissant With various Flavour</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g7.jpg" alt="Cromboloni">
+                <div class="caption">Cromboloni</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo/g8.jpg" alt="Cafe Decoration">
+                <div class="caption">Cafe Decoration</div>
+            </div>
+        </div>
+
+<div class="gallery-grid">
+    <div class="gallery-item">
+        <video src="video/view.mp4" autoplay muted loop></video>
+        <div class="caption">View</div>
+    </div>
+    <div class="gallery-item">
+        <video src="video/cafe.mp4" autoplay muted loop></video>
+        <div class="caption">Cafe view</div>
+    </div>
+    <div class="gallery-item">
+        <video src="video/dessert.mp4" autoplay muted loop></video>
+        <div class="caption">Dessert</div>
+    </div>
+    <div class="gallery-item">
+        <video src="video/coffee2.mp4" autoplay muted loop></video>
+        <div class="caption">Coffee Making</div>
+    </div>
+    </div>
+
+
+<audio id="background-audio" autoplay loop muted>
+        <source src="song/YungKai-blue.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="audio-controls">
+        <button onclick="toggleAudio()">🔊/🔇</button>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <!-- Informasi Café -->
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>Welcome to Sweety Brew Café, your cozy spot for artisanal coffee and freshly baked pastries. We strive to bring you joy, one sip at a time.</p>
+        </div>
+
+        <!-- Navigasi Singkat -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Kontak -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:sweetybrewcafec@gmail.com">sweetybrewcafec@gmail.com</a></p>
+            <p>Phone: +03-6834 8141</p>
+            <p>Address: No. 12, Jalan Kencana Emas 2/2, Kawasan Perindustrian Tebrau 3, 81100 Johor Bahru, Johor.</p>
+        </div>
+
+        <!-- Ikon Media Sosial -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <!-- Replace the '#' with the actual URLs to your social media profiles -->
+            <a href="https://www.facebook.com/YourPage" target="_blank"><img src="photo/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sweetybrewcafe/profilecard/?igsh=MXJ5MWtyZXFyanFr" target="_blank"><img src="photo/instagram.jpg" alt="Instagram"></a>
+            <a href="https://twitter.com/YourProfile" target="_blank"><img src="photo/x.png" alt="X"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Sweety Brew Café. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="JAVA/gallery.js"></script>
+</body>
+</html>
